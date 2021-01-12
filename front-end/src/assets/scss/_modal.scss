@@ -1,0 +1,21 @@
+@import 'shaping';
+
+.modal-content {
+    @extend .rounded;
+
+    .modal-title {
+        font-size: 18px;
+    }
+
+    border: 0;
+}
+
+.invision-modal-footer::before {
+    display: block;
+    position: relative;
+    content: "";
+    left: calc(-1rem - 15px);
+    width: calc(100% + 2rem + 30px);
+    margin-bottom: 1rem;
+    border-top: 1px solid #dee2e6;
+}

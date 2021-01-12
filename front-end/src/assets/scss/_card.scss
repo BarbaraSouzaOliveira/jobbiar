@@ -1,0 +1,124 @@
+@import 'shaping';
+@import 'color';
+
+
+.card.invision-card {
+    @extend .rounded;
+
+    background-color: white;
+
+    &.elevate-1 {
+        box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px;
+    }
+    &.elevate-2 {
+        box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 10px;
+    }
+    &.elevate-3 {
+        box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 20px;
+    }
+    &.invision-top {
+        border-top: 10px solid $primary-color-50 !important;
+    }
+    &.borderless {
+        border: 0;
+    }
+
+    .card-header {
+        background-color: white;
+        padding: 0 0 20px 0;
+        border-radius: 0;
+
+        &.borderless {
+            border-bottom: 0;
+        }
+
+        .card-title {
+            font-weight: 800;
+            font-size: 1.75rem;
+        }
+
+        .card-subtitle {
+            padding-top: .2em;
+        }
+    }
+
+    .card-footer {
+        background-color: white;
+        padding: 0;
+    }
+  
+    .card-title {
+        margin: 0;
+    }
+
+    .invision-card-header {
+        background-color: $primary-color-50;
+        margin: -21px -20px 21px;
+        padding: 1px 20px 10px;
+        border-bottom: 0;
+
+        .card-title {
+            color: #fff;
+            font-size: 2rem;
+        }
+    }
+
+    .card-footer {
+        border-radius: 0 0 10px 10px;
+    }
+
+    .invision-card-footer-action {
+        border: 0;
+        top: 20px;
+        position: relative;
+        left: -20px;
+        width: calc(100% + 40px);
+
+        .invision-btn {
+            border-radius: 10px 0 10px 0;
+        }
+    }
+
+    .invision-card-header-action {
+        top: -20px;
+        position: relative;
+        left: 20px;
+        width: 100%;
+        text-align: right;
+
+        .invision-btn {
+            border: 1px solid $primary-color-50;
+            border-radius: 0 0 0 10px;
+            background-color: $primary-color-50;
+            font-weight: 500;
+            padding: 0.5rem 1rem;
+            transition: padding .4s, transform .25s ease-out, border-radius .25s ease-out, background-color .25s ease-out, color .25s ease-out;
+            transform: scaleY(0);
+            transform-origin: left top;
+
+            &:enabled {
+                transform: scaleY(1);
+            }
+
+            &:hover {
+                padding: 0.5rem 1.5625rem
+            }
+
+            &:active {
+                background-color: $primary-color-50;
+            }
+
+            &:focus {
+                box-shadow: none !important;
+                outline: 1px !important;
+            }
+            
+            &.right {
+                background-color: white;
+                color: $primary-color-50;
+                font-weight: bold;
+                border-radius: 0 0 0 0;
+            }
+        }
+    }
+}

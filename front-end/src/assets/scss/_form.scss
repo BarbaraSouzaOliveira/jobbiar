@@ -1,0 +1,11 @@
+.invision-file-input ~ .invision-file-label::after {
+  content: 'Selecionar' !important;
+}
+
+//default
+label, legend
+.form-group label,
+.b-form-file label {
+    font-weight: 400;
+    color: $neutral-color-70;
+}

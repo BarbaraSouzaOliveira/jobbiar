@@ -1,0 +1,126 @@
+/* --- FONTS --- */
+/* TODO: verify if all fonts is been used */
+/* ~ BebasNeue ~ */
+@font-face {
+    font-family: 'BebasNeue';
+    src: url('BebasNeue-Regular.ttf');
+}
+
+/* ~ Open Sans ~ */
+/* @font-face {
+    font-family: 'Open Sans';
+    src: url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700');
+  } */
+
+/* ~ Akrobat ~ */
+/* ~
+@font-face {
+    font-family: 'Akrobat';
+    src: url('Akrobat/Akrobat-Thin.woff') format("woff");
+    font-weight: 100;
+}
+
+@font-face {
+    font-family: 'Akrobat';
+    src: url('Akrobat/Akrobat-ExtraLight.woff') format("woff");
+    font-weight: 200;
+}
+
+@font-face {
+    font-family: 'Akrobat';
+    src: url('Akrobat/Akrobat-Light.woff') format("woff");
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: 'Akrobat';
+    src: url('Akrobat/Akrobat-Regular.woff') format("woff");
+}
+
+@font-face {
+    font-family: 'Akrobat';
+    src: url('Akrobat/Akrobat-SemiBold.woff') format("woff");
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: 'Akrobat';
+    src: url('Akrobat/Akrobat-Bold.woff') format("woff");
+    font-weight: 800;
+}
+
+@font-face {
+    font-family: 'Akrobat';
+    src: url('Akrobat/Akrobat-Bold.woff') format("woff");
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: 'Akrobat';
+    src: url('Akrobat/Akrobat-ExtraBold.woff') format("woff");
+    font-weight: 900;
+}
+
+@font-face {
+    font-family: 'Akrobat';
+    src: url('Akrobat/Akrobat-Black.woff') format("woff");
+    font-weight: 1000;
+}
+~ */
+/* ~ fim ~ */
+
+/* ~ Poppins ~ */
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('Poppins/poppins-thin.woff') format("woff");
+    font-weight: 100;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('Poppins/poppins-extra-light.woff') format("woff");
+    font-weight: 200;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('Poppins/poppins-light.woff') format("woff");
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('Poppins/poppins-regular.woff') format("woff");
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('Poppins/poppins-medium.woff') format("woff");
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('Poppins/poppins-semi-bold.woff') format("woff");
+    font-weight: 600;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('Poppins/poppins-bold.woff') format("woff");
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('Poppins/poppins-extrabold.woff') format("woff");
+    font-weight: 800;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('Poppins/poppins-black.woff') format("woff");
+    font-weight: 900;
+}

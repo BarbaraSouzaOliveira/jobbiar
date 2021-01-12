@@ -1,0 +1,170 @@
+@import 'color';
+
+.btn.invision-btn-light {
+    padding-right: 1.5rem;
+    padding-left: 1.5rem;
+
+    &.lg {
+        padding-right: 3rem;
+        padding-left: 3rem;
+    }
+}
+
+.btn.invision-btn {
+    @extend .btn.invision-btn-light;
+    font-weight: 700;
+}
+
+/* nova id */
+
+.btn {
+    font-weight: 700;
+    border: none;
+
+    padding-right: 16px; /*1.5rem;*/
+    padding-left: 16px;  /*1.5rem;*/
+
+    &.lg {
+        padding-right: 3rem;
+        padding-left: 3rem;
+    }
+}
+
+
+// ------primary--------
+//default-version
+.btn.primary-contained-button {
+    color: white;
+    background-color: $primary-color-50;
+}
+
+.btn.primary-contained-button:hover{
+    background-color: $primary-color-60;
+    color: white;
+}
+
+//default-outline-version
+.btn.primary-outline-button {
+    padding-right: 16px; /*1.5rem;*/
+    padding-left: 16px;  /*1.5rem;*/
+
+    color: $primary-color-50;
+    border: 1px solid $primary-color-50;
+    font-weight: 600;
+}
+
+.btn.primary-outline-button:hover{
+    color: $primary-color-60;
+    border: 1px solid $primary-color-60;
+}
+
+//default-text-version
+.btn.primary-text-button {
+    color: $primary-color-50;
+    font-weight: 600;
+}
+
+.btn.btn.primary-text-button:hover {
+    color: $primary-color-60;
+}
+
+//light-version
+.btn.primary-light-contained-button {
+    padding-right: 16px; /*1.5rem;*/
+    padding-left: 16px;  /*1.5rem;*/
+
+    font-weight: 600;
+    text-transform: uppercase;
+
+    color: $primary-color-40;
+    background-color: $primary-color-20;
+}
+
+.btn.primary-light-contained-button:hover{
+    color: $primary-color-50;
+}
+
+//variant
+// ------primary END--------
+
+
+// ------secondary----------
+//default-version
+.btn.secondary-contained-button {
+    padding-right: 16px; /*1.5rem;*/
+    padding-left: 16px;  /*1.5rem;*/
+    color: white;
+    background-color: $secondary-color-50;
+}
+
+.btn.secondary-contained-button:hover{
+    background-color: #FF934D;
+    color: white;
+}
+
+//toggle-icon-version
+.btn.secondary-toggle-button {
+    padding: 6px 7px;
+    margin-right:12px;
+
+    color: white;
+    background-color: $secondary-color-50;
+}
+
+//default-outline-version
+.btn.secondary-outline-button {
+    padding-right: 16px; /*1.5rem;*/
+    padding-left: 16px;  /*1.5rem;*/
+
+    color: $secondary-color-50;
+    border: 1px solid $secondary-color-50;
+    font-weight: 600;
+}
+
+.btn.secondary-outline-button:hover{
+    color:  #FF934D;
+    border: 1px solid  #FF934D;
+}
+// ------secondary END----------
+
+
+// ------danger----------
+//default-danger-outline-version
+.btn.danger-outline-button {
+    padding-right: 16px; /*1.5rem;*/
+    padding-left: 16px;  /*1.5rem;*/
+
+    color: #DC3545;
+    border: 1px solid #DC3545;
+    font-weight: 600;
+}
+
+.btn.danger-outline-button:hover{
+    color: #E55C69;
+    border: 1px solid #E55C69;
+}
+// ------danger END----------
+
+
+// ------Toggle button----------
+.btn.light-contained-button {
+    color: $neutral-color-70;
+    background-color: white;
+   /* border-top: 1px solid $neutral-color-70;
+    border-right: 1px solid $neutral-color-70;
+    border-bottom: 1px solid $neutral-color-70; */
+}
+
+.btn.toggle-button {
+    padding: 6px;
+    color: $neutral-color-80;
+    background-color: white;
+}
+// ------Toggle button END----------
+
+
+svg.w20px, .w20px svg {
+    width: 20px;
+    height: 20px;
+}
+

@@ -1,0 +1,70 @@
+$primary-color-10: #209F85;
+$neutral-color-70: #5E627A;
+
+.invision-select, .invision-input, .invision-select.invision-input, .form-control.invision-input, .invision-file.invision-input .b-form-file.invision-input {
+    height: 40px;
+    border-radius: 5px;
+    padding: 8px 16px; /* 6px 12px*/
+    font-size: 1rem;
+    line-height: 1.5rem;
+    color: $neutral-color-70;
+}
+
+.invision-select-sm, .invision-input-sm, 
+.invision-select-sm.invision-input-sm, 
+.form-control.invision-input-sm, 
+.invision-file.invision-input-sm
+.b-form-file.invision-input-sm,
+.form-group .invision-select-sm {
+    height: 32px;
+    border-radius: 5px;
+    padding: 3px 12px; /* 6px 12px*/
+    
+    font-size: 14px;
+    line-height: 1.5rem;
+    color: $neutral-color-70;
+}
+
+.invision-select-sm,
+.form-group .invision-select-sm {
+    padding-right: 20px;
+}
+
+
+
+.invision-file-input ~ .invision-file-label::after {
+    content: 'Selecionar' !important;
+}
+
+label.switch {
+    margin-top: 7px;
+    margin-bottom: 7px;
+
+    span {
+        user-select: none;
+    }
+
+    > * {
+        display: inline-block;
+        margin-right: 5px;
+        margin-left: 5px;
+    }
+
+    > .invision-switch {
+        margin-left: 13px;
+    }
+
+    .invision-control-input ~ .invision-control-label::before {
+        border-color: $primary-color-10;
+        background-color: $primary-color-10;
+    }
+
+    .invision-control-input ~ .invision-control-label::after {
+        background-color: #fff;
+    }
+
+    .invision-control-input:disabled ~ .invision-control-label::before {
+        border-color: rgba(0, 123, 255, 0.5);
+        background-color: rgba(0, 123, 255, 0.5);
+    } /* não tem necessidade */
+}
